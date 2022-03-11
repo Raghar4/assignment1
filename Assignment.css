@@ -1,0 +1,68 @@
+.header {
+    color: red;
+    font-size: xx-large;
+    font-family: monospace;
+    border: solid;
+    border-color: black;
+    border-block-end-color: revert;
+    border-width: 8px;
+    padding: 7px;
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url(https://i.pinimg.com/originals/90/ca/e0/90cae0cf9b6cded6456a336101de9fd8.jpg);
+    background-position: center;
+}
+
+.img {
+    background-image: url(https://wallpaperbat.com/img/531893-wallpaper-black-and-white-wolverine-mystic-wolverine-x-men-comic-marvel-marvel-comics-x-men-mystic-image-for-desktop-section-fantastika-download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.id {
+    background-image: linear-gradient(to left, rgba(0, 255, 242, 0.322), rgba(238, 255, 0, 0.397));
+    border: double;
+    border-width: 3px;
+    border-color: cyan;
+    border-radius: 5px;
+}
+
+.div1 {
+    background-image: linear-gradient(to right, rgba(231, 42, 42, 0.562), rgba(236, 247, 89, 0.493));
+    border: double;
+    border-width: 3px;
+    border-color: cyan;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.text {
+    background: -o-linear-gradient();
+}
+
+.foot {
+    text-align: center;
+    background-color: rgba(39, 6, 6, 0.322);
+    outline-color: black;
+    padding: 10px;
+    border-style: groove;
+    border-width: 5px;
+    background-image: linear-gradient(rgba(192, 35, 35, 0), rgba(196, 45, 45, 0.767))
+}
+
+#myBtn {
+    position: sticky;
+    left: 1280px;
+    bottom: 10px;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
